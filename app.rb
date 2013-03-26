@@ -32,7 +32,7 @@ assets do
 
   prebuild true
 
- end
+end
 
 
 
@@ -40,6 +40,29 @@ assets do
 get '/' do
   erb :index
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
