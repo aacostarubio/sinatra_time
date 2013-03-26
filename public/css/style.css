@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'American-Typewriter';
+  src: url("../fonts/Bellerose.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*.hero-unit {
+  background-image:url('../img/bang.jpg');
+  background-repeat:repeat-x;
+  color: white;
+}*/
+
+body {
+  background: url("../img/noise_lines.png") repeat;
+  background-image: url(../img/noise_lines.png);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: repeat;
+  background-repeat-y: repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  padding: 50px 0 15px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 100px;
+  font-family: 'American-Typewriter';
+}
+
+input[type="text"] {
+  padding: 24px;
+  font-family: 'American-Typewriter';
+  font-weight: 500;
+  outline: none;
+  width: 400px;
+  border: 0;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+#header {
+  margin-bottom: 30px;
+}
+
+#input-box {
+  text-align: center;
+}
+
+
+
+
+
+
