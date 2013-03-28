@@ -35,10 +35,12 @@ assets do
 end
 
 
-
-
 get '/' do
   erb :index
+end
+
+post '/result' do
+  erb:result, :locals => { :date_input => params[:date_input] }
 end
 
 
