@@ -8,8 +8,8 @@ class Stime
 
   if letter_from_month.include? new_time.split[0]
     return "time.strftime" + "(%b" + " %-d" + " %Y)"
-  else
-    return false
+  elsif word_from_month.include? new_time.split[0]
+    return "time.strftime" + "(%B" + " %-d" + " %Y)"
   end
 
  end
