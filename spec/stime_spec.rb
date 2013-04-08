@@ -12,4 +12,9 @@ describe Stime do
   @a.date_format("October 14 1992").should == "time.strftime" + "(%B" + " %-d" + " %Y)"
  end
 
+ it 'should return the strftime code if the user inputs the months in lowercase' do
+  @a = Stime.new
+  @a.date_format("october 14 1992").should == "time.strftime" + "(%B" + " %-d" + " %Y)"
+ end
+
 end

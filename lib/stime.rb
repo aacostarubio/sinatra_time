@@ -5,6 +5,7 @@ class Stime
   word_from_month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
   new_time = input
+  new_time.capitalize!
 
   if letter_from_month.include? new_time.split[0]
     return "time.strftime" + "(%b" + " %-d" + " %Y)"
